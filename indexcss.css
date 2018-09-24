@@ -1,5 +1,19 @@
 @charset "utf-8";
 
+@font-face
+{
+	font-family: Techno Till dawn;
+	src:url("fonts/techno__til_dawn-webfont.eot");
+	src:
+		url("fonts/techno__til_dawn-webfont.woff")format("woff"),
+		url("fonts/techno__til_dawn-webfont.svg")format("svg");
+}
+
+body
+{
+	font-family: Techno Till dawn;
+}
+
 
 #miniheading
 {
