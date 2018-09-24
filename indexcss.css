@@ -1,15 +1,18 @@
 @charset "utf-8";
-/* CSS Document */
-
-h1
-{
-	text-align: center;
-}
 
 
 #miniheading
 {
+	text-align: center;
 	font-size: 20px;
-	margin: 0 auto;
+}
+
+
+h1
+{
+
 	text-align: center;
 }
+
+
+
