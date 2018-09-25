@@ -12,10 +12,14 @@
 body
 {
 	font-family: Techno Till dawn;
+	
 	background-image: url(content/pizza.gif);
+	background-size: contain, cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
+	
+	
 		
 }
 
