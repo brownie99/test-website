@@ -12,7 +12,7 @@
 body
 {
 	font-family: Techno Till dawn;
-	
+	background-color:#0D0D0E;
 	background-image: url(content/pizza.gif);
 	background-size: contain, cover;
 	background-attachment: fixed;
