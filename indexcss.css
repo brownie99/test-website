@@ -69,9 +69,15 @@ h1
 	font-weight: 100;
 	text-decoration:underline;
 	text-decoration-style: solid;
-	text-decoration-color: #7900FF;
+	text-decoration-color: #7900FF;	
 	
-	
+}
+
+#woop
+{
+	font-size: 100px;
+	color: red;
+	text-align: center;
 }
 
 
