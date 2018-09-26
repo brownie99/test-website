@@ -6,7 +6,58 @@
 	<body>
 	<h1>Hello</h1>
 	<br>
-		<p id = "miniheading">I'm Scott and this is my first website hosted by github pages!</p>
+	<p id = "miniheading">I'm Scott and this is my first website hosted by github pages!</p>
+	<p id = "rainbow"></p>
+	<script>
+		function RGB2Color(r,g,b)
+  		{
+    		return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
+  		}
+		
+		function byte2Hex(n)
+  		{
+    		var nybHexString = "0123456789ABCDEF";
+    		return String(nybHexString.substr((n >> 4) & 0x0F,1)) + nybHexString.substr(n & 0x0F,1);
+  		}
+		
+		function Rainbow(v){
+			var frequency = 0.3;
+			var amplitude = 127;
+			var center = 128;
+				for (var i = 0; i < 256; ++i)
+				{
+   					red   = Math.sin(frequency*(i) + v + 0 )* amplitude + center;
+   					green = Math.sin(frequency*(i) + v + (2   * Math.PI/3 )) * amplitude + center;
+   					blue  = Math.sin(frequency*(i) + v + (4 * Math.PI/3 )) * amplitude + center;
+
+   					rainbow.innerHTML += ( '<font color="' + RGB2Color(red,green,blue) + '">&#9608;</font>');
+					
+				}
+				
+				
+			
+			
+		}
+		
+		function RainbowText()
+		{
+			
+			rainbow.innerHTML = "";
+			Rainbow(changer);
+			changer++
+			if(changer == 256)
+			{
+				changer = 0;
+			}
+			
+		}
+		
+		changer = 0;
+		setInterval(RainbowText,100);
+	</script>
+	<br>
+	<br>
+	<button id="enterButton" type="button" onClick="">Enter The Website</button>
 	</body>
 </html>
 
