@@ -12,7 +12,7 @@
 body
 {
 	font-family: Techno Till dawn;
-	background-color:#0D0D0E;
+	background-color:#18171A;
 	background-image: url(content/pizza.gif);
 	background-size: contain, cover;
 	background-attachment: fixed;
@@ -26,15 +26,18 @@ body
 
 #miniheading
 {
+	text-shadow: 5px 5px 3px black;
 	text-align: center;
 	font-size: 20px;
 	transform: scaleY(1.2);
+	color: aquamarine;
 }
 
 
 h1
 {
-
+	text-shadow: 5px 5px 1px black;
+	color: #00FF05;
 	text-align: center;
 	font-size: 50px;
 	font-weight: 100;
