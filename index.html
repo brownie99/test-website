@@ -8,15 +8,12 @@
 	<h1>Hello</h1>
 	<br>
 	<p id = "miniheading">I'm Scott and this is my first website hosted by github pages!</p>
-	<div id="contain">
-		<p id = "rainbow"></p>
-	</div>
-	
-	
+	<p id = "rainbow"></p>
+	<p id = "greenBar"></p>
 	<br>
 	<br>
-		<button id="enterButton" type="button" onClick=" location.href='Main.html'">Enter The Website</button>
-				<script>
+	<button id="enterButton" type="button" onClick="EnterSite()">Enter The Website</button>
+	<script>
 		function RGB2Color(r,g,b)
   		{
     		return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
@@ -32,7 +29,7 @@
 			var frequency = 0.3;
 			var amplitude = 127;
 			var center = 128;
-				for (var i = 0; i < 256; ++i)
+				for (var i = 0; i < 192; ++i)
 				{
    					red   = Math.sin(frequency*(i) + v + 0 )* amplitude + center;
    					green = Math.sin(frequency*(i) + v + (2   * Math.PI/3 )) * amplitude + center;
@@ -41,16 +38,14 @@
    					rainbow.innerHTML += ( '<font color="' + RGB2Color(red,green,blue) + '">&#9608;</font>');
 					
 				}
-				
-				
-			
-			
+
 		}
 		
 		function RainbowText()
 		{
 			
 			rainbow.innerHTML = "";
+			console.log("reset");
 			Rainbow(changer);
 			changer++
 			if(changer == 256)
@@ -62,6 +57,36 @@
 		
 		changer = 0;
 		var id = setInterval(RainbowText,100);
+		var x = 1;
+		rainbow.innerHTML = "";
+		Rainbow();
+		var rainbowText = rainbow.innerHTML;
+		
+		
+		function EnterSite()
+		{
+			console.log("Enter site")
+			clearTimeout(id);
+			setInterval(GreenBar,10);
+			
+			
+			
+			
+			
+		}
+		
+		function GreenBar() 
+		{
+			
+			greenBar.innerHTML += (('<font color="#00FF00">&#9608;</font>'));
+			if(x>=192)
+			{
+				clearInterval(GreenBar);
+				document.location.href='Main.html';
+			}
+			x++;
+				
+		}
 	</script>
 	</body>
 </html>

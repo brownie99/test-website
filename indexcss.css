@@ -32,23 +32,38 @@ body
 	height: 50px;
 	position: relative;
 	background: black;
+	overflow: hidden;
 }
 
 
 #rainbow
 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,0);
 	text-align: center;
 	vertical-align: middle;
-	overflow: hidden
+	overflow: hidden;
+}
+
+#greenBar
+{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,0);
+	vertical-align: middle;
 }
 
 
 #enterButton
 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	object-position: center;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 	background-color: #F0FF00;
 	border: thin;
 	padding: 15px 32px;
