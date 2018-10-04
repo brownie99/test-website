@@ -26,6 +26,15 @@ body
 		
 }
 
+#container
+{
+	width: 100%;
+	height: 50px;
+	position: relative;
+	background: black;
+}
+
+
 #rainbow
 {
 	text-align: center;
