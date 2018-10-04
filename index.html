@@ -2,13 +2,21 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="indexcss.css">
+
 	</head>
 	<body>
 	<h1>Hello</h1>
 	<br>
 	<p id = "miniheading">I'm Scott and this is my first website hosted by github pages!</p>
-	<p id = "rainbow"></p>
-	<script>
+	<div id="contain">
+		<p id = "rainbow"></p>
+	</div>
+	
+	
+	<br>
+	<br>
+		<button id="enterButton" type="button" onClick=" location.href='Main.html'">Enter The Website</button>
+				<script>
 		function RGB2Color(r,g,b)
   		{
     		return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
@@ -53,11 +61,8 @@
 		}
 		
 		changer = 0;
-		setInterval(RainbowText,100);
+		var id = setInterval(RainbowText,100);
 	</script>
-	<br>
-	<br>
-		<button id="enterButton" type="button" onClick=" location.href='Main.html'">Enter The Website</button>
 	</body>
 </html>
 
