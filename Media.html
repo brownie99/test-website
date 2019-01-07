@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Media</title>
+<link href="Lo-fi.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="js/sliders.js"></script>
+</head>
+
+<body>
+<header> <img src="content/Logo Place holder.png">
+  <nav>
+    <button type="button" onClick="location.href='Index.html'">Home</button>
+	<div id="DropDown">
+    <button type="button" onClick="location.href='About.html'" id="DropButton">About</button>
+    <div id="DropDownContent">
+	<button type="button" class="DropDownButton" onClick="location.href='About.html'">Info</button>
+    <button type="button" class="DropDownButton" onClick="location.href='Media.html'">Media</button>
+    <button type="button" class="DropDownButton" onClick="location.href='Reviews.html'">Reviews</button>
+    </div>
+    </div>
+    <button type="button" onClick="location.href='Buy.html'">Buy/Downlaod</button>
+    
+    
+    <button type="button" onClick="location.href='Contact.html'">Contact</button>
+  </nav>
+</header>
+<div id="MediaContainer">
+	<div class="bxslider">
+	<div class="imageDiv"><img class="sliderImage" src="content/SliderImages/main.jpg"></div>
+	<div class="imageDiv"><img class="sliderImage" src="content/SliderImages/image1.png"></div>
+	<div class="imageDiv"><img class="sliderImage" src="content/SliderImages/image2.jpg"></div>
+	<div class="imageDiv"><img class="sliderImage" src="content/SliderImages/image3.gif"></div>
+	<div class="imageDiv"><iframe class="sliderImage" width="560" height="315" src="https://www.youtube.com/embed/w7uOhFTrrq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	<div class="imageDiv"><video class = "sliderImage" width="600" height="450" controls>
+							<source src="content/SliderImages/trailer.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+	</div>
+	</div>
+</div>
+</body>
+</html>

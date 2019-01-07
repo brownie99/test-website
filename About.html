@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<link href="Lo-fi.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css"> <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
+<script type="text/javascript" src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://unpkg.com/muuri@0.6.3/dist/muuri.min.js"></script>
+<script src="js/customiser.js"></script>
+</head>
+
+<body>
+<header> <img src="content/Logo Place holder.png">
+  <nav>
+    <button type="button" onClick="location.href='Index.html'">Home</button>
+	<div id="DropDown">
+    <button type="button" onClick="location.href='About.html'" id="DropButton">About</button>
+    <div id="DropDownContent">
+	<button type="button" class="DropDownButton" onClick="location.href='About.html'">Info</button>
+    <button type="button" class="DropDownButton" onClick="location.href='Media.html'">Media</button>
+    <button type="button" class="DropDownButton" onClick="location.href='Reviews.html'">Reviews</button>
+    </div>
+    </div>
+    <button type="button" onClick="location.href='Buy.html'">Buy/Downlaod</button>
+    
+    
+    <button type="button" onClick="location.href='Contact.html'">Contact</button>
+  </nav>
+</header>
+<div id="AboutBody">
+	<h1>If you want to know about how terraria works and how to play the game<br>then you've come to the right place!</h1>
+	<div id="InfoContainer">
+	<div class="InfoArea"><p>Info 1</p></div>
+	<div class="InfoArea"><p>Info 2</p></div>
+	<div class="InfoArea"><p>Info 3</p></div>
+	<div id="AboutLinkButtonContainer">
+	<a href="Media.html" class="InfoLinkButton"><div id="MediaButton" ></div>Media</a>
+	<a href="Reviews.html" class="InfoLinkButton">Reviews<div id="ReviewsButton" ></div></a>
+	</div>
+	<div id="CustomiserContainer">
+		<div id="Customiser">
+			<div id="characterContainer">
+			<div id="characterHead"><img class="CharacterImg" src="content/Items/Head/Helmet1.png"></div>
+			<div id="characterArm1"><img class="CharacterImg" src="content/Items/Arms/arms1.png"></div>
+			<div id="characterArm2"><img class="CharacterImg" src="content/Items/Arms/arms1.png"></div>
+			<div id="characterChest"><img class="CharacterImg" src="content/Items/Chest/chest1.png"></div>
+			<div id="characterLeg1"><img class="CharacterImg" src="content/Items/Legs/legs1.png"></div>
+			<div id="characterLeg2"><img class="CharacterImg" src="content/Items/Legs/legs1.png"></div>
+		</div>
+		</div>
+		<div id="ItemsContainer" class="grid"></div>
+
+	</div>
+	</div>
+</div>
+</body>
+</html>

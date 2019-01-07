@@ -1,0 +1,463 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background: #0A2246;
+}
+
+
+
+
+nav {
+	top: 50%;
+	margin-left: 50%;
+	width: 50vw;
+	position: relative;
+	text-align: justify;
+	background-color: #3D436F;
+	vertical-align: middle;
+	height: 12vh;
+	transform: translate(-50%, -50%);
+	background: #2C4870;
+	text-align: center;
+	z-index: 4;
+}
+
+header{
+	height: 15vh;
+	background-color: #2E6DCB;
+	box-sizing: border-box;
+	vertical-align: middle;
+	z-index: 3;
+}
+
+nav button{
+	top: 50%;
+	position: relative;
+	transform: translate(0,-50%);
+	padding-left: 2.2vw;
+	padding-right: 2.2vw;
+	margin-left: 0.6vw;
+	margin-right: 0.6vw;
+	text-align: center;
+	height: 80%;
+	font-size: 1.05vw;
+	background-color: #FF6A26;
+	border: none;
+	display: inline-block;
+}
+
+nav button:hover{
+	background-color: #6A2506;
+}
+
+header img{
+	float:left;
+	position: relative;
+	height: 15vh;
+	
+}
+
+#DropDown{
+	position: relative;
+	margin: 0;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: 12vh;
+	z-index: 3;
+	text-align: right;
+	z-index: 10;
+}
+
+
+#DropDownContent{
+	display: none;
+	background-color: #F34C00;
+	margin: 0;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+	padding: 0;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	position: absolute;
+	z-index: 8;
+	text-align: right;
+	width: 86%;
+	z-index: 11;
+	
+	
+	
+}
+
+#DropDown:hover #DropDownContent{
+	display:block !important;
+}
+
+.DropDownButton{
+	padding: 0;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	margin-top: 10vh;
+	margin-bottom: 1vh;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	margin-left: 50%;
+	z-index: 3;
+	display: inline-block;
+	transform: translate(-50%,0);
+	text-align: right;
+	text-align: center;
+	width: 80%;
+}
+
+.DropButton:hover{
+	background-color: #6A2506;
+}
+
+#HomeBody{
+	z-index: -1;
+	margin-top: 3%;
+	margin-left: 50%;
+	position: relative;
+	height: 70vh;
+	width: 80vw;
+	transform: translate(-50%,0px);
+	
+}
+
+#HomeBody p, h1{
+	
+	top: 25%;
+	position: relative;
+	text-align: center;
+	
+}
+
+#HomeBody p{
+	font-size: 3rem;
+}
+
+#HomeBody h1{
+	font-size: 4rem;
+}
+
+#HomeBody img{
+	top: 0%;
+	left: 0%;
+	position: absolute;
+	z-index: -3;
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	opacity: 0.3;
+	
+}
+
+#AboutBody {
+	z-index: -1;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 80%;
+}
+
+#AboutBody p, h1{
+	text-align: center;
+	color: #21DC38;
+}
+
+#InfoContainer{
+	position: relative;
+	margin-top: 5%;
+}
+
+.InfoArea{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #AD3600;
+}
+
+.InfoLinkButton{
+	font-size: 3rem;
+	display: inline-block;
+	margin-top: 40px;
+	margin: auto;
+	margin: 3vw;
+	padding: 5vw;
+	background-color: #AD3600;
+	text-decoration: none;
+	color: #21DC38;
+}
+
+.InfoLinkButton:hover{
+	background-color: #6A2506;
+}
+
+#AboutLinkButtonContainer{
+	Text-align: center;
+	width: 100%;
+
+}
+
+
+#MediaButton{
+
+}
+
+#ReviewsButton{
+
+}
+
+#Customiser{
+	float: left;
+	background-image: url("content/Temp BG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1000px;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #AD3600;
+	font-size: 4rem;
+}
+
+#characterContainer{
+	position: relative;
+	width: 100px;
+	height: 250px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#characterHead{
+	position: relative;
+	transform: translate(-50%,0);
+	left: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: blanchedalmond;
+}
+
+#characterHead img{
+	width: 50px;
+}
+
+.CharacterImg{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	z-index: 1;
+}
+#characterChest img{
+	z-index:0;
+	left: 0;
+}
+
+#characterChest{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	transform: translate(-50%,0);
+	left: 50%;
+	height: 100px;
+	width: 60px;
+	background-color: blanchedalmond;
+}
+
+#characterArm1{
+	z-index: 1;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: left;
+	left: 0%;
+	height: 80px;
+	width: 22px;
+	background-color: blanchedalmond;
+}
+
+#characterArm2{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	right: 0%;
+	height: 80px;
+	width: 22px;
+	background-color: blanchedalmond;
+}
+
+#characterLeg1{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	left: 20%;
+	height: 60px;
+	width: 24px;
+	background-color: blanchedalmond;
+}
+
+#characterLeg2{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: right;
+	right: 20%;
+	height: 60px;
+	width: 24px;
+	background-color: blanchedalmond;
+}
+
+#ItemsContainer{
+	position:relative;
+	background-color: aqua;
+	float: right;
+	width: 300px;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#HeadItemsContainer{
+	background-color: aqua;
+	float: right;
+	width: 300px;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#ChestItemsContainer{
+	background-color: aqua;
+	float: right;
+	width: 300px;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#ArmItemsContainer{
+	background-color: aqua;
+	float: right;
+	width: 300px;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#LegItemsContainer{
+	background-color: aqua;
+	float: right;
+	width: 300px;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.Item{
+	display:block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000000;
+	margin: 5px;
+}
+
+.Item img{
+	width: 48px;
+	height: 48px;
+	border: #000000;
+	object-fit: contain;
+}
+
+#ContactContainer{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#ContactContainer h2{
+	color: #00BC17;
+}
+
+#MediaContainer{
+	position: absolute;
+	overflow: hidden;
+	background-color: #0D48A0;
+	width: 80%;
+	margin-top: 100px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	left: 50%;
+	transform: translate(-50%,0)
+}
+
+.bxslider{
+	height: 100%;
+}
+
+.bx-wrapper{
+	position: absolute;
+	left: 50%;
+	top: 50%; 
+	transform: translate(-50%,0%); */
+}
+
+.bx-viewport{
+	background-color: #0D58B0;
+}
+
+.imageDiv{
+	position: relative;
+	height: 100%;
+	padding: 0;
+}
+
+.sliderImage{
+	position: relative;
+	width: 600px;
+	top: 50%;
+	transform: translate(0,-50%);
+	/* height: 400px; */
+}
+
+#ReviewContainer{
+	position: absolute;
+	overflow: hidden;
+	background-color: #0D48A0;
+	width: 80%;
+	margin-top: 100px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	left: 50%;
+	transform: translate(-50%,0)
+}
+
+.reviewDiv{
+	height: 400px;
+	width: 600px;
+}
+
+
+
+#BuyGame{
+	margin-top: 10%;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+	font-size: 8rem;
+	background-color: #21DC38;
+	color: #008611;
+	border: none;
+}
+#BuyGame:hover{
+	background-color: chartreuse;
+}
+
