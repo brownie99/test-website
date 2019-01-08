@@ -11,10 +11,17 @@ button{
 	border-radius: 5px;
 }
 
+header{
+	height: 15vh;
+	background-color: #2E6DCB;
+	box-sizing: border-box;
+	vertical-align: middle;
+	z-index: 3;
+}
 
 nav {
 	top: 50%;
-	margin-left: 50%;
+	margin-left: 64.29550736%;
 	width: 50vw;
 	position: relative;
 	text-align: justify;
@@ -27,13 +34,7 @@ nav {
 	z-index: 4;
 }
 
-header{
-	height: 15vh;
-	background-color: #2E6DCB;
-	box-sizing: border-box;
-	vertical-align: middle;
-	z-index: 3;
-}
+
 
 nav button{
 	top: 50%;
@@ -45,7 +46,7 @@ nav button{
 	margin-right: 0.6vw;
 	text-align: center;
 	height: 80%;
-	font-size: 1.3vw;
+	font-size: 1.2rem;
 	background-color: #FF6A26;
 	border: none;
 	display: inline-block;
@@ -55,11 +56,10 @@ nav button:hover{
 	background-color: #6A2506;
 }
 
-header img{
-	float:left;
+#logo{
 	position: relative;
 	height: 15vh;
-	
+	float: left;
 }
 
 #DropDown{
@@ -474,7 +474,7 @@ header img{
 	border: none;
 }
 #BuyGame:hover{
-	background-color: chartreuse;
+	background-color: #10DD99;
 }
 
 @media screen and (max-width: 568px) {
