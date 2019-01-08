@@ -7,6 +7,9 @@ body{
 }
 
 
+button{
+	border-radius: 5px;
+}
 
 
 nav {
@@ -42,7 +45,7 @@ nav button{
 	margin-right: 0.6vw;
 	text-align: center;
 	height: 80%;
-	font-size: 1.05vw;
+	font-size: 1.3vw;
 	background-color: #FF6A26;
 	border: none;
 	display: inline-block;
@@ -193,6 +196,7 @@ header img{
 	background-color: #AD3600;
 	text-decoration: none;
 	color: #21DC38;
+	border-radius: 8px;
 }
 
 .InfoLinkButton:hover{
