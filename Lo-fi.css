@@ -224,8 +224,17 @@ header img{
 	width: 900px;
 	left: 50%;
 	transform: translate(-50%,0);
-	align: center;
 	margin: 50px;
+}
+
+@media only screen and (max-width: 568px) {
+  CustomiserContainer {
+    width: 500px;
+  }
+  
+  ItemsContainer{
+	  display: block;
+  }
 }
 
 #Customiser{
