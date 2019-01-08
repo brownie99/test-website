@@ -218,17 +218,27 @@ header img{
 
 }
 
+#CustomiserContainer{
+	position: absolute;
+	height: 600px;
+	width: 900px;
+	left: 50%;
+	transform: translate(-50%,0);
+	align: center;
+	margin: 50px;
+}
+
 #Customiser{
+	position: relative;
 	float: left;
 	background-image: url("content/Temp BG.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 1000px;
+	width: 500px;
 	height: 600px;
-	margin-top: 40px;
-	margin-bottom: 40px;
 	background-color: #AD3600;
 	font-size: 4rem;
+	display: inline-block;
 }
 
 #characterContainer{
@@ -322,22 +332,25 @@ header img{
 }
 
 #ItemsContainer{
+	top: 50%;
 	position:relative;
 	background-color: aqua;
-	float: right;
 	width: 300px;
 	height: 600px;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	display: inline-block;
+	padding-left: 150px;
+	padding-right: 150px;
+	float: right;
+	transform: translate(0, -50%);
 }
 
 #HeadItemsContainer{
 	background-color: aqua;
-	float: right;
 	width: 300px;
 	height: 600px;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	
 }
 
 #ChestItemsContainer{
