@@ -227,16 +227,6 @@ header img{
 	margin: 50px;
 }
 
-@media only screen and (max-width: 568px) {
-  CustomiserContainer {
-    width: 500px;
-  }
-  
-  ItemsContainer{
-	  display: block;
-  }
-}
-
 #Customiser{
 	position: relative;
 	float: left;
@@ -487,3 +477,30 @@ header img{
 	background-color: chartreuse;
 }
 
+@media screen and (max-width: 568px) {
+	
+	
+	#CustomiserContainer {
+		position: absolute;
+		margin: 0;
+		width: 300px;
+		height: auto;
+		left: 50%;
+		transform: translate(-50%,0);
+	}
+  
+	#Customiser{
+		  display: block;
+		  float: none;
+		  width: 300px;
+		  /* left: 50%; */
+		  /* transform: translate(-50%,0); */
+	}
+  
+	  #ItemsContainer{
+		  display: block;
+		  float: none;
+		  /* left: 50%; */
+		  /* transform: translate(-50%,0); */
+	  }
+}
