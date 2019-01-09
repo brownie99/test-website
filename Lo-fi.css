@@ -620,16 +620,10 @@ nav button:hover{
 	#DropDown:hover #DropDownContent{
 		display:block !important;
 	}
-	body{
-		background-color: #000000;
-	}
 }
 
 @media (hover: none){
 
-	body{
-		background-color: #FFFFFF;
-	}
 }
 
 @media screen and (max-width: 700px){
