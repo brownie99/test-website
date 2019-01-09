@@ -429,7 +429,6 @@ nav button:hover{
 
 .bx-viewport{
 	background-color: #0D58B0;
-	height: 0;
 }
 
 .imageDiv{
@@ -475,6 +474,7 @@ nav button:hover{
 	margin-right: 50px;
 	text-align: center;
 	vertical-align: middle;
+	
 }
 
 
