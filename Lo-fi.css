@@ -616,7 +616,7 @@ nav button:hover{
 	}
 }
 
-@media not (hover: none){
+@media not all and (hover: none){
 	#DropDown:hover #DropDownContent{
 		display:block !important;
 	}
