@@ -9,7 +9,6 @@ var arms = [];
 var legs = [];
 var HTMLString = "";
 
-window.onload = function(){var grid = new Muuri('.grid', {dragEnabled: false,  dragSort: false});};
 $(function(){	
   	console.log("Innit Fired");
 	for(var i = 1; i <= totalHeadImages; i++){
@@ -52,7 +51,7 @@ $(function(){
 		UpdateImage(e, source);
 	}
 	});
-	
+	var grid = new Muuri('.grid', {dragEnabled: false,  dragSort: false});
 	if(localStorage && localStorage.getItem('head')){
 		$("#characterHead").find("img").attr("src", localStorage.getItem('head'));
 	}
