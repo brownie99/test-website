@@ -616,7 +616,7 @@ nav button:hover{
 	}
 }
 
-@media (pointer:coarse){
+@media (hover: none){
 	#DropDown{
 		display: none;
 	}
