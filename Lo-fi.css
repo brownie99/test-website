@@ -459,7 +459,7 @@ nav button:hover{
 
 .sliderImage{
 	position: relative;
-	width: 600px;
+	width: 100%;
 	top: 50%;
 	transform: translate(0,-50%);
 	/* height: 400px; */
