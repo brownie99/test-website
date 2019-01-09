@@ -429,6 +429,7 @@ nav button:hover{
 
 .bx-viewport{
 	background-color: #0D58B0;
+	height: 0;
 }
 
 .imageDiv{
@@ -449,7 +450,7 @@ nav button:hover{
 	position: absolute;
 	overflow: hidden;
 	background-color: #0D48A0;
-	width: 80%;
+	width: 100%;
 	margin-top: 100px;
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -457,9 +458,23 @@ nav button:hover{
 	transform: translate(-50%,0)
 }
 
+.reviewSlider{
+	height: 800px;
+	width: 70%;
+}
+
 .reviewDiv{
-	height: 400px;
 	width: 600px;
+}
+
+.reviewDiv p{
+	position:relative;
+	text-align: center;
+	font-size: 2.5vh;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	vertical-align: middle;
 }
 
 
@@ -504,4 +519,17 @@ nav button:hover{
 		  /* left: 50%; */
 		  /* transform: translate(-50%,0); */
 	  }
+}
+
+@media screen and (orientation:portrait) {
+	.reviewDiv p{
+	font-size: 2.5vw;
+}
+
+@media screen and (orientation:landscape) {
+	.reviewDiv p{
+	font-size: 2.5vh;
+}
+
+
 }
