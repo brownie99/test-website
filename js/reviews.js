@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$('.bxslider').html(htmlString);
 	var maxHeight = 20;
 	console.log("init fired");
-	var sliderWidth = $(window).width()*0.7;
+	var sliderWidth = $(window).width()*0.95;
 	$('.bxslider p').each(function(){
 		console.log($(this).height());
 		if ($(this).height() > maxHeight){
