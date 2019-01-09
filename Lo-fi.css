@@ -617,7 +617,7 @@ nav button:hover{
 }
 
 @media (hover: none){
-	#DropDown{
+	#DropDown:hover{
 		display: none;
 	}
 }
