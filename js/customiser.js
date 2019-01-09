@@ -53,6 +53,21 @@ $(function(){
 	}
 	});
 	
+	if(localStorage && localStorage.getItem('head')){
+		$("#characterHead").find("img").attr("src", localStorage.getItem('head'));
+	}
+	if(localStorage && localStorage.getItem('chest')){
+		$("#characterChest").find("img").attr("src", localStorage.getItem('chest'));
+	}
+	if(localStorage && localStorage.getItem('arms')){
+		$("#characterArm1").find("img").attr("src", localStorage.getItem('arms'));
+		$("#characterArm2").find("img").attr("src", localStorage.getItem('arms'));
+	}
+	if(localStorage && localStorage.getItem('legs')){
+		$("#characterLeg1").find("img").attr("src", localStorage.getItem('legs'));
+		$("#characterLeg2").find("img").attr("src", localStorage.getItem('legs'));
+	}
+	
   });
 
   
@@ -63,19 +78,23 @@ function UpdateImage(e, ui){
 	if (type == "head"){
 		console.log("changing head");
 		$("#characterHead").find("img").attr("src", $(ui).attr("src"));
+		localStorage.setItem('head', $(ui).attr("src"))
 	}
 	if (type == "chest"){
 		console.log("changing chest");
 		$("#characterChest").find("img").attr("src", $(ui).attr("src"));
+		localStorage.setItem('chest', $(ui).attr("src"))
 	}
 	if (type == "arm"){
 		console.log("changing arms");
 		$("#characterArm1").find("img").attr("src", $(ui).attr("src"));
 		$("#characterArm2").find("img").attr("src", $(ui).attr("src"));
+		localStorage.setItem('arms', $(ui).attr("src"))
 	}
 	if (type == "leg"){
 		console.log("changing legs");
 		$("#characterLeg1").find("img").attr("src", $(ui).attr("src"));
 		$("#characterLeg2").find("img").attr("src", $(ui).attr("src"));
+		localStorage.setItem('legs', $(ui).attr("src"))
 	}
 }
