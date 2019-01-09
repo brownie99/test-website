@@ -47,23 +47,27 @@ $(function(){
 	}
 	});
 	var grid = new Muuri('.grid', {dragEnabled: false,  dragSort: false});
-	// if(localStorage && localStorage.getItem('head')){
-		// $("#characterHead").find("img").attr("src", localStorage.getItem('head'));
-	// }
-	// if(localStorage && localStorage.getItem('chest')){
-		// $("#characterChest").find("img").attr("src", localStorage.getItem('chest'));
-	// }
-	// if(localStorage && localStorage.getItem('arms')){
-		// $("#characterArm1").find("img").attr("src", localStorage.getItem('arms'));
-		// $("#characterArm2").find("img").attr("src", localStorage.getItem('arms'));
-	// }
-	// if(localStorage && localStorage.getItem('legs')){
-		// $("#characterLeg1").find("img").attr("src", localStorage.getItem('legs'));
-		// $("#characterLeg2").find("img").attr("src", localStorage.getItem('legs'));
-	// }
+	
 	
   });
 
+  
+function GetLocalStorage(){
+	if(localStorage && localStorage.getItem('head')){
+		$("#characterHead").find("img").attr("src", localStorage.getItem('head'));
+	}
+	if(localStorage && localStorage.getItem('chest')){
+		$("#characterChest").find("img").attr("src", localStorage.getItem('chest'));
+	}
+	if(localStorage && localStorage.getItem('arms')){
+		$("#characterArm1").find("img").attr("src", localStorage.getItem('arms'));
+		$("#characterArm2").find("img").attr("src", localStorage.getItem('arms'));
+	}
+	if(localStorage && localStorage.getItem('legs')){
+		$("#characterLeg1").find("img").attr("src", localStorage.getItem('legs'));
+		$("#characterLeg2").find("img").attr("src", localStorage.getItem('legs'));
+	}
+}
   
 function UpdateImage(e, ui){
 	console.log("Updating Image");
