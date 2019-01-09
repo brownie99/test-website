@@ -48,7 +48,7 @@ $(function(){
 	});
 	var grid = new Muuri('.grid', {dragEnabled: false,  dragSort: false});
 	
-	
+	GetLocalStorage();
   });
 
   
