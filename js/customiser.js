@@ -36,12 +36,7 @@ $(function(){
 	$(".image").draggable({
 		proxy: 'clone',
 		revert: true,
-		revertDuration: 200,
-		//onDrag:function(e){
-			//var target = e.target;
-			//$(target).css("transform", "translateX(0)");
-			//console.log(jQuery._data(target, "events"));
-			//}
+		revertDuration: 200
 	});
 	$("#Customiser").droppable({
 		accept: ".image",
@@ -52,20 +47,20 @@ $(function(){
 	}
 	});
 	var grid = new Muuri('.grid', {dragEnabled: false,  dragSort: false});
-	if(localStorage && localStorage.getItem('head')){
-		$("#characterHead").find("img").attr("src", localStorage.getItem('head'));
-	}
-	if(localStorage && localStorage.getItem('chest')){
-		$("#characterChest").find("img").attr("src", localStorage.getItem('chest'));
-	}
-	if(localStorage && localStorage.getItem('arms')){
-		$("#characterArm1").find("img").attr("src", localStorage.getItem('arms'));
-		$("#characterArm2").find("img").attr("src", localStorage.getItem('arms'));
-	}
-	if(localStorage && localStorage.getItem('legs')){
-		$("#characterLeg1").find("img").attr("src", localStorage.getItem('legs'));
-		$("#characterLeg2").find("img").attr("src", localStorage.getItem('legs'));
-	}
+	// if(localStorage && localStorage.getItem('head')){
+		// $("#characterHead").find("img").attr("src", localStorage.getItem('head'));
+	// }
+	// if(localStorage && localStorage.getItem('chest')){
+		// $("#characterChest").find("img").attr("src", localStorage.getItem('chest'));
+	// }
+	// if(localStorage && localStorage.getItem('arms')){
+		// $("#characterArm1").find("img").attr("src", localStorage.getItem('arms'));
+		// $("#characterArm2").find("img").attr("src", localStorage.getItem('arms'));
+	// }
+	// if(localStorage && localStorage.getItem('legs')){
+		// $("#characterLeg1").find("img").attr("src", localStorage.getItem('legs'));
+		// $("#characterLeg2").find("img").attr("src", localStorage.getItem('legs'));
+	// }
 	
   });
 
