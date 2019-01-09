@@ -114,9 +114,9 @@ nav button:hover{
 	
 }
 
-#DropDown:hover #DropDownContent{
-	display:block !important;
-}
+/* #DropDown:hover #DropDownContent{ */
+	/* display:block !important; */
+/* } */
 
 .DropDownButton{
 	padding: 0;
@@ -616,9 +616,9 @@ nav button:hover{
 	}
 }
 
-@media (hover: none){
+@media not (hover: none){
 	#DropDown:hover #DropDownContent{
-		display: none;
+		display:block !important;
 	}
 	body{
 		background-color: #000000;
