@@ -17,11 +17,12 @@ header{
 	box-sizing: border-box;
 	vertical-align: middle;
 	z-index: 3;
+	overflow: hidden;
 }
 
 nav {
 	top: 50%;
-	margin-left: 64.29550736%;
+	left: 50%;
 	width: 50vw;
 	position: relative;
 	text-align: justify;
