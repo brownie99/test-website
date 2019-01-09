@@ -617,9 +617,9 @@ nav button:hover{
 }
 
 @media (hover: none){
-	/* #DropDownContent{ */
-		/* display: none; */
-	/* } */
+	#DropDown:hover #DropDownContent{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 700px){
