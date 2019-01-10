@@ -5,6 +5,9 @@
 body{
 	background: #0A2246;
 	overflow: auto;
+	margin: 0;
+	padding: 20px;
+	margin-bottom: 50px;
 }
 
 
@@ -18,7 +21,7 @@ header{
 	right: 0px;
 	position: relative;
 	height: 15vh;
-	background-color: #2E6DCB;
+	background-color: rgba(46,109,203,0.6);
 	box-sizing: border-box;
 	vertical-align: middle;
 	z-index: 3;
@@ -31,11 +34,11 @@ nav {
 	width: 100%;
 	position: relative;
 	text-align: justify;
-	background-color: #3D436F;
+	background-color: rgba(44,72,112,0.5); /*rgba(61,67,111,0.7);*/
 	vertical-align: middle;
 	height: 12vh;
 	transform: translate(-50%, -50%);
-	background: #2C4870;
+	/* background: #2C4870; */
 	text-align: center;
 	z-index: 4;
 }
@@ -53,13 +56,16 @@ nav button{
 	text-align: center;
 	height: 80%;
 	font-size: 1.2rem;
-	background-color: #FF6A26;
+	background-image: url('content/Button Grass.png');
+	background-size: contain;
+	/* background-color: #FF6A26; */
 	border: none;
 	display: inline-block;
+	opacity: 1;
 }
 
 nav button:hover{
-	background-color: #6A2506;
+	filter: brightness(150%);
 }
 
 #imgWrapper{
@@ -97,7 +103,7 @@ nav button:hover{
 
 #DropDownContent{
 	display: none;
-	background-color: #F34C00;
+	background-color: rgba(255,255,255,0);
 	margin: 0;
 	margin-left: 50%;
 	transform: translate(-50%,0);
@@ -120,8 +126,8 @@ nav button:hover{
 
 .DropDownButton{
 	padding: 0;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 	margin-top: 10vh;
 	margin-bottom: 1vh;
 	overflow: hidden;
@@ -142,18 +148,27 @@ nav button:hover{
 
 #HomeBody{
 	z-index: -1;
-	margin-top: 3%;
-	margin-left: 50%;
+	margin: 30px;
+	top: 3%;
+	left: 50%;
 	position: relative;
-	height: 70vh;
+	box-sizing: border-box;
+	background-origin: border-box;
+	height: auto;
 	width: 80vw;
 	transform: translate(-50%,0px);
+	background-image: url('content/old paper.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 15px solid transparent;
+	padding: 15px;
+	border-image: url('content/Border.png') 10 round;
 	
 }
 
 #HomeBody p, h1{
 	
-	top: 25%;
+	top: 7%;
 	position: relative;
 	text-align: center;
 	
@@ -175,7 +190,7 @@ nav button:hover{
 	height: 100%;
 	width: 100%;
 	object-fit: contain;
-	opacity: 0.3;
+	opacity: 0.6;
 	
 }
 
@@ -188,7 +203,7 @@ nav button:hover{
 	width: 80%;
 }
 
-#AboutBody p, h1{
+#AboutBody p, #AboutBody h1{
 	text-align: center;
 	color: #21DC38;
 }
@@ -551,7 +566,7 @@ nav button:hover{
 	}
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 830px){
 	
 	nav{
 		height: 12vw;
