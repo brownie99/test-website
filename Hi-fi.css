@@ -538,6 +538,10 @@ nav button:hover{
 	background-color: #10DD99;
 }
 
+#DemoContainer{
+	width: 90%;
+}
+
 @media screen and (max-width: 1040px) {
 	
 	
