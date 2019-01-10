@@ -664,9 +664,10 @@ nav button:hover{
 	}
 	
 	nav button{
-		font-size: 1.2vw;
+		font-size: 1.5vw;
 		margin-left: 0.01vw;
 		margin-right: 0.01vw;
+		padding: 1vw;
 	}
 	
 }
