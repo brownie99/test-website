@@ -565,6 +565,12 @@ nav button:hover{
 	  }
 }
 
+@media screen and (max-width: 1340px){
+	nav button{
+		font-size: 1vw;
+	}
+}
+
 @media screen and (max-width: 1000px){
 	nav button{
 		margin-left: 0.5vw;
@@ -572,7 +578,7 @@ nav button:hover{
 	}
 }
 
-@media screen and (max-width: 930px){
+@media screen and (max-width: 890px){
 	
 	nav{
 		height: 12vw;
@@ -582,7 +588,7 @@ nav button:hover{
 		margin-left: 0.5vw;
 		margin-right: 0.5vw;
 		height: 8vw;
-		font-size: 2vw;
+		font-size: 0.7vw;
 	}
 	
 	#DropDown{
@@ -617,7 +623,7 @@ nav button:hover{
 		margin-left: 0.5vw;
 		margin-right: 0.5vw;
 		height: 8vw;
-		font-size: 2vw;
+		font-size: 1vw;
 	}
 	
 	#DropDown{
@@ -658,7 +664,9 @@ nav button:hover{
 	}
 	
 	nav button{
-		font-size: 2.6vw;
+		font-size: 1.2vw;
+		margin-left: 0.01vw;
+		margin-right: 0.01vw;
 	}
 	
 }
