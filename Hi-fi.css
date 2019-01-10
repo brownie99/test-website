@@ -539,6 +539,7 @@ nav button:hover{
 }
 
 #DemoContainer{
+	position: absolute;
 	top: 20%;
 	width: 90%;
 	height: 75%;
