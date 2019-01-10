@@ -218,7 +218,7 @@ nav button:hover{
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%,0);
-	width: 60%;
+	width: 75%;
 }
 
 
@@ -257,7 +257,7 @@ nav button:hover{
 }
 
 .InfoLinkButton{
-	font-size: 3rem;
+	font-size: 3vw;
 	font-family: 'PixelText';
 	display: inline-block;
 	margin-top: 40px;
@@ -282,13 +282,6 @@ nav button:hover{
 }
 
 
-#MediaButton{
-
-}
-
-#ReviewsButton{
-
-}
 
 #CustomiserInfo{
 	width: 300px;
@@ -448,7 +441,8 @@ nav button:hover{
 }
 
 #ContactContainer h2{
-	color: #00BC17;
+	color: #009817;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #MediaContainer{
@@ -460,7 +454,8 @@ nav button:hover{
 	padding-top: 200px;
 	padding-bottom: 200px;
 	left: 50%;
-	transform: translate(-50%,0)
+	transform: translate(-50%,0);
+	background-image: url(content/BlueStoneBG.png);
 }
 
 .bxslider{
@@ -502,7 +497,8 @@ nav button:hover{
 	padding-top: 200px;
 	padding-bottom: 200px;
 	left: 50%;
-	transform: translate(-50%,0)
+	transform: translate(-50%,0);
+	background-image: url(content/RedStoneBG.png);
 }
 
 .reviewSlider{
@@ -525,13 +521,15 @@ nav button:hover{
 	
 }
 
-
+#ReviewContainer .bx-wrapper .bx-viewport{
+	background-color: #BBBBDD;
+}
 
 #BuyGame{
 	margin-top: 10%;
 	margin-left: 50%;
 	transform: translate(-50%,0);
-	font-size: 8rem;
+	font-size: 10vw;
 	background-color: #21DC38;
 	color: #008611;
 	border: none;
@@ -540,7 +538,7 @@ nav button:hover{
 	background-color: #10DD99;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 1040px) {
 	
 	
 	#CustomiserContainer {
@@ -556,17 +554,19 @@ nav button:hover{
 		  display: block;
 		  float: none;
 		  width: 300px;
-		  /* left: 50%; */
-		  /* transform: translate(-50%,0); */
 	}
-  
-	  #ItemsContainer{
-		  display: block;
-		  float: none;
-		  width: 200px;
-		  /* left: 50%; */
-		  /* transform: translate(-50%,0); */
-	  }
+	
+	#CustomiserInfo{
+		display: block;
+		float: none;
+		width: 300px;
+	}
+	
+	#ItemsContainer{
+		display: block;
+		float: none;
+		width: 200px;
+	}
 }
 
 @media screen and (max-width: 1340px){
