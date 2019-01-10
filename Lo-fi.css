@@ -678,12 +678,12 @@ nav button:hover{
 
 @media screen and (orientation:portrait) {
 	.reviewDiv p{
-	font-size: 2.5vw;
+	font-size: 1.5vw;
 }
 
 @media screen and (orientation:landscape) {
 	.reviewDiv p{
-	font-size: 2.5vh;
+	font-size: 1.5vh;
 }
 
 
