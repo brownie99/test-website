@@ -539,7 +539,9 @@ nav button:hover{
 }
 
 #DemoContainer{
+	top: 20%;
 	width: 90%;
+	height: 75%;
 }
 
 @media screen and (max-width: 1040px) {
