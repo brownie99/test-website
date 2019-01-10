@@ -218,14 +218,14 @@ nav button:hover{
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%,0);
-	width: 80%;
+	width: 60%;
 }
 
 
 #AboutBody p{
 	text-align: center;
 	color: rgba(0,0,0,1);
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1), 0 1px rgba(0, 0, 0, 1), 1px 0 rgba(0, 0, 0, 1), 0 -1px rgba(0, 0, 0, 1); 
+	/* text-shadow: 2px 2px 8px black;  */
 	
 }
 
@@ -235,7 +235,9 @@ nav button:hover{
 }
 
 .InfoArea p{
-	font-size: 2rem;
+	font-size: 2.5vw;
+	font-stretch: normal;
+	line-height: 3vw;
 	
 }
 
