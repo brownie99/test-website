@@ -165,8 +165,8 @@ nav button:hover{
 
 #HomeBody{
 	z-index: -1;
-	margin: 30px;
-	top: 3%;
+	margin-top: 30px;
+	top: 7%;
 	left: 50%;
 	position: relative;
 	box-sizing: border-box;
@@ -192,11 +192,11 @@ nav button:hover{
 }
 
 #HomeBody p{
-	font-size: 2rem;
+	font-size: 2vw;
 }
 
 #HomeBody h1{
-	font-size: 3rem;
+	font-size: 3vw;
 }
 
 #HomeBody img{
