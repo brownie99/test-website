@@ -8,6 +8,23 @@ body{
 	margin: 0;
 	padding: 20px;
 	margin-bottom: 50px;
+	background-image: url('content/terraria background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+@font-face{
+	font-family: "PixelText";
+	src: url('content/fonts/pcsenior/pcsenior-webfont.ttf');
+	src:
+	url('content/fonts/pcsenior/pcsenior-webfont.woff');
+	url('content/fonts/pcsenior/pcsenior-webfont.eot');
+	url('content/fonts/pcsenior/pcsenior-webfont.woff2');
+	url('content/fonts/pcsenior/pcsenior-webfont.svg');
+}
+
+h1, p, button{
+	font-family: 'PixelText';
 }
 
 
@@ -175,11 +192,11 @@ nav button:hover{
 }
 
 #HomeBody p{
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 #HomeBody h1{
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 #HomeBody img{
@@ -203,9 +220,22 @@ nav button:hover{
 	width: 80%;
 }
 
-#AboutBody p, #AboutBody h1{
+
+#AboutBody p{
 	text-align: center;
-	color: #21DC38;
+	color: rgba(0,0,0,1);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1), 0 1px rgba(0, 0, 0, 1), 1px 0 rgba(0, 0, 0, 1), 0 -1px rgba(0, 0, 0, 1); 
+	
+}
+
+#AboutBody h1{
+	text-align: center;
+	color: #000000;
+}
+
+.InfoArea p{
+	font-size: 2rem;
+	
 }
 
 #InfoContainer{
@@ -219,16 +249,19 @@ nav button:hover{
 	margin-top: 40px;
 	margin-bottom: 40px;
 	background-color: #AD3600;
+	background-image: url('content/SandBG.png');
 }
 
 .InfoLinkButton{
 	font-size: 3rem;
+	font-family: 'PixelText';
 	display: inline-block;
 	margin-top: 40px;
 	margin: auto;
 	margin: 3vw;
 	padding: 5vw;
 	background-color: #AD3600;
+	background-image: url(content/GraniteBG.png);
 	text-decoration: none;
 	color: #21DC38;
 	border-radius: 8px;
@@ -251,6 +284,14 @@ nav button:hover{
 
 #ReviewsButton{
 
+}
+
+#CustomiserInfo{
+	width: 300px;
+	padding:0;
+	margin:0;
+	float: right;
+	display: inline-block;
 }
 
 #ItemsContainer{
