@@ -575,7 +575,7 @@ nav button:hover{
 	}
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1050px){
 	nav button{
 		margin-left: 0.5vw;
 		margin-right: 0.5vw;
